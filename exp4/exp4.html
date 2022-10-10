@@ -14,6 +14,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -21,8 +23,8 @@
         <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="images/Ducati-Logo.png" alt="Navbar-brand-icon" width="32" height="32"
-                        class="d-inline-block align-text-top">Bala Srikanth</a>
+                    <img src="https://i.ytimg.com/vi/1RaLtpjOPJ8/maxresdefault.jpg" alt="Navbar-brand-icon" width="32" height="32"
+                        class="d-inline-block align-text-top">N.KUMAR KRISHNA</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +48,7 @@
                     </ul>
                     <form class="d-flex search" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-primary" type="submit">Submit</button>
+                        <button class="btn btn-primary" onclick="signin()" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
@@ -66,13 +68,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/ducati-2.webp" class="d-block w-100" alt="...">
+                        <img src="http://wallpaperset.com/w/full/e/8/9/56991.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/ducati-3.jpg" class="d-block w-100" alt="...">
+                        <img src="https://a-static.besthdwallpaper.com/vintage-car-wallpaper-1920x1080-23884_48.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/20220218123120_Ducati 2.jpg" class="d-block w-100" alt="...">
+                        <img src="https://i.ytimg.com/vi/1RaLtpjOPJ8/maxresdefault.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -138,7 +140,7 @@
                                 </label>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary" onclick="signin()">Sign in</button>
+                        <button type="submit" onclick="signin()" class="btn btn-primary">Sign in</button>
                     </form>
                 </div>
                 <div class="col-md-6">
@@ -153,56 +155,56 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr id="tr1">
                                 <td scope="row">1</td>
                                 <td>UR16AE001</td>
                                 <td>ANIT ANU JOHN</td>
                                 <td>Product Design and Analysis</td>
                                 <td>CADD Centre</td>
                             </tr>
-                            <tr>
+                            <tr id="tr2">
                                 <td scope="row">2</td>
                                 <td>UR16AE011</td>
                                 <td>VASANTHA KANESH M</td>
                                 <td>Product Design and Analysis</td>
                                 <td>CADD Centre</td>
                             </tr>
-                            <tr>
+                            <tr id="tr3">
                                 <td scope="row">3</td>
                                 <td>UR16AE013</td>
                                 <td>ABIJITH J</td>
                                 <td>Product Design and Analysis</td>
                                 <td>CADD Centre</td>
                             </tr>
-                            <tr>
+                            <tr id="tr3">
                                 <td scope="row">4</td>
                                 <td>UR16AE015</td>
                                 <td>JEBIN JOHN J</td>
                                 <td>Product Design and Analysis</td>
                                 <td>CADD Centre</td>
                             </tr>
-                            <tr>
+                            <tr id="tr4">
                                 <td scope="row">5</td>
                                 <td>UR16AE018</td>
                                 <td>JOSHI K J</td>
                                 <td>Product Design and Analysis</td>
                                 <td>CADD Centre</td>
                             </tr>
-                            <tr>
+                            <tr id="tr5">
                                 <td scope="row">6</td>
                                 <td>UR16AE020</td>
                                 <td>J P GOKUL</td>
                                 <td>Product Design and Analysis</td>
                                 <td>CADD Centre</td>
                             </tr>
-                            <tr>
+                            <tr id="tr6">
                                 <td scope="row">7</td>
                                 <td>UR16AE021</td>
                                 <td>JEROME</td>
                                 <td>Product Design and Analysis</td>
                                 <td>CADD Centre</td>
                             </tr>
-                            <tr>
+                            <tr id="tr7">
                                 <td scope="row">8</td>
                                 <td>UR16AE022</td>
                                 <td>AFNAN M. ARIEF</td>
@@ -215,13 +217,12 @@
             </div>
         </div>
     </section>
-    
-    
+
     <script type="text/javascript">
-        function sigin(){
-            alter("you've clicked the button!!!");
+        function signin(){
+            alert("You've Clickd the Button!!!");
         }
+    </script>
 </body>
 
-    
 </html>
